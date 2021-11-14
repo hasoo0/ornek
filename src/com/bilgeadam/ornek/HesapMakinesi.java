@@ -4,10 +4,19 @@ package com.bilgeadam.ornek;
 
 public class HesapMakinesi {
 
+    //method overloading
+    //ayni islemle method tanimliyoruz, parametre sayisi ya da veri tipleri "double ya da int" farklidir.
 
     public int topla(int sayi1, int sayi2)
     {
+        System.out.println("int topla calisti");
         return sayi1 + sayi2;
+    }
+    public  double topla(double sayi1, double sayi2)
+    {
+        System.out.println("double topla calisti");
+        return  sayi2 + sayi2;
+
     }
 
     public int carp(int sayi1, int sayi2)
@@ -37,6 +46,10 @@ public class HesapMakinesi {
 
         int sonuc  = hm.topla(9,4);
         System.out.println("sonuc:" + sonuc);
+
+        System.out.println(hm.topla(4,2));
+        System.out.println(hm.topla(1.4,1.7));
+
 
     }
 

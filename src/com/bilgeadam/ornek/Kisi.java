@@ -7,6 +7,9 @@ public class Kisi {
     private String soyad;
     private double maas;
 
+
+    //constructor overloading
+    //obje olustururken hangi constructor uyuyorsa, onu calistirir.
     public Kisi() {
     }
 
