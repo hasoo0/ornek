@@ -26,7 +26,6 @@ public class HesapMakinesi {
     }
 
 
-
     public static void main(String[] args) {
 
         HesapMakinesi hm = new HesapMakinesi();
@@ -34,6 +33,10 @@ public class HesapMakinesi {
         System.out.println(hm.bol(10,4));
         System.out.println(hm.carp(10,4));
         System.out.println(hm.cikar(10,4));
+
+
+        int sonuc  = hm.topla(9,4);
+        System.out.println("sonuc:" + sonuc);
 
     }
 
